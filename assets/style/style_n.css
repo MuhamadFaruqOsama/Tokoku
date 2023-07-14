@@ -1,0 +1,32 @@
+body {
+  font-family: "Patrick Hand", cursive;
+}
+
+/* untuk navbar (index, header) */
+nav a {
+  cursor: pointer;
+}
+nav a:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+nav img {
+  cursor: pointer;
+  filter: drop-shadow(1px 1px 1px grey);
+}
+nav img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+nav ul li {
+  padding-right: 20px;
+}
+nav ul li:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+/* untuk home */
+.card {
+  cursor: pointer;
+}
